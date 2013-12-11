@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/menu_info" android:title="@string/network_setting"></item>
+    <item android:id="@+id/menu_register" android:title="@string/menu_register"></item>
+    <item android:id="@+id/menu_offlline_map" android:title="@string/offline_map"></item><item android:id="@+id/menu_address" android:title="@string/my_address"></item>
+    <item android:id="@+id/menu_exit" android:title="@string/menu_exit"  />
+    
+    
+</menu>

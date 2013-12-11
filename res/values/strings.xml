@@ -1,0 +1,63 @@
+<resources>
+
+    <string name="app_name">接送车A</string>
+    
+    <string name="distance_left">里程：</string>
+    <string name="kilometers">公里</string><string name="meter">米</string><string name="time_left">时程：</string>
+    <string name="hours">小时</string><string name="minutes">分钟</string><string name="car_number">车号：</string><string name="car_number_null">无绑定车号</string>
+    <string name="driver">司机：</string>
+    <string name="driver_null">无绑定司机</string><string name="data_connection_lost">未检查到有效数据连接，请开启数据连接开关！</string>
+    <string name="data_connection_type">数据链接：</string>
+    <string name="location_started">定位已启动！</string>
+    <string name="location_lost">请确保开启定位功能！</string>
+    <string name="menu_register">车机注册</string>
+    <string name="menu_info">车机信息</string><string name="menu_settings">系统设置</string>
+    <string name="menu_exit">退出应用</string><string name="device_serial">车机编号：</string><string name="device_register">车机注册成功！</string>
+    <string name="device_register_failed">车机注册失败！</string>
+    <string name="device_imei">设备识别码：</string>
+    <string name="device_imsi">SIM卡识别码：</string>
+    <string name="device_number">电话号码：</string>
+    <string name="time_arrive">到达时间：</string><string name="time_departure">出发时间：</string>
+    <string name="shuttle_ticket_null">本车今日未调度接送服务！</string>
+    <string name="shuttle_ticket_query">查询今日调度信息......</string><string name="shuttle_ticket_update">乘客状态更新......</string>
+    <string name="passenger_name">乘客姓名</string>
+    <string name="passenger_number">乘客电话</string>
+    <string name="passenger_address">乘客地址</string>
+    
+    <string name="gps_close_suggestion">建议关闭GPS开关，以节省电池消耗。</string>
+    <string name="from_to">——</string>
+    <string name="passenger_pickup">乘客上车确认</string>
+    <string name="passenger_call">拨打乘客电话</string>
+    <string name="passenger_route">乘客路线规划</string>
+    <string name="passenger_schedule">乘客接送排序</string>
+    <string name="passenger_schedule_calculating">计算乘客接送优先顺序.......</string>
+    
+    <string name="toggle_traffic">切换实时路况显示......</string>
+    <string name="HOUR">小时</string>
+    <string name="MINUTE">分钟</string>
+    <string name="offline_map">离线地图</string>
+    <string name="my_address">常用地址</string>
+    <string name="map_download">离线地图下载</string>
+    <string name="address_list">常用地址</string>
+    <string name="address_list_null">暂无常用地址数据！</string>
+    <string name="city_list_null">暂无离线地图城市列表！</string>
+    <string name="map_downloading">离线地图下载：</string>
+    <string name="map_download_error">离线地图下载错误！</string>
+    <string name="map_download_pause">离线地图下载暂停！</string>
+    <string name="map_download_stop">离线地图下载终止！</string>
+    <string name="map_download_success">离线地图下载完成！</string>
+    <string name="map_download_waiting">等待下载离线地图......</string>
+    <string name="map_download_unzip">离线地图解压......</string>
+    
+    <string name="arrive">到达</string>
+    <string name="predict">预计</string>
+    <string name="network_setting">网络设置</string>
+    
+    
+    
+    
+    
+    
+    
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_list"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dip"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <ImageView
+        android:id="@+id/imageViewSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/separator" />
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/imageViewSeparator"
+        android:layout_margin="10dip" >
+
+    </ExpandableListView>
+    <ImageButton
+        android:id="@+id/imageButtonBack"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageViewSeparator"
+        android:background="@drawable/btn_back"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_back" />
+    <ImageView
+        android:id="@+id/imageViewTitle"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignLeft="@+id/imageViewSeparator"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/btn_pickup" />
+
+</RelativeLayout>

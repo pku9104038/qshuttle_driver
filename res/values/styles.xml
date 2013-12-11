@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar" >
+    
+    </style>
+    
+ 	<style name="Transparent" parent="android:Theme">
+       	<item name="android:windowBackground">@color/transparent_background</item>
+       	<item name="android:windowNoTitle">true</item>
+       	<item name="android:windowIsTranslucent">true</item>
+       	<item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+	</style>
+    
+    <style name="ListTheme" parent="android:Theme.NoTitleBar.Fullscreen">
+        
+    </style>
+    
+    <dimen name="button_height">48dip</dimen>
+    <dimen name="button_width">80dip</dimen>
+    <dimen name="button_left">0dip</dimen>
+    <dimen name="button_right">0dip</dimen>
+    <dimen name="button_top">0dip</dimen>
+    <dimen name="button_bottom">0dip</dimen>
+    <dimen name="padding_top">5dip</dimen>
+    <dimen name="padding_bottom">5dip</dimen>
+    <dimen name="padding_left">5dip</dimen>
+    <dimen name="padding_right">5dip</dimen>
+    <dimen name="ic_height">50dip</dimen>
+    <dimen name="ic_width">50dip</dimen>
+
+    <color name="transparent_background">#50000000</color>
+
+    <color name="transparent_filter">#70000000</color>
+
+    <color name="transparent_accuracy">#200000FF</color>
+    
+    <color name="circle_accuracy">#800000FF</color>
+    
+</resources>
